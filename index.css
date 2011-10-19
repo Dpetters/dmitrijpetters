@@ -58,9 +58,9 @@ a{
     height:200px;
     width:200px;
     line-height:190px;
-    -webkit-border-radius: 100px;
+    /*-webkit-border-radius: 100px;
     -moz-border-radius: 100px;
-    border-radius: 100px;
+    border-radius: 100px;*/
     -webkit-transition: line-height .7s ease-out, -webkit-border-radius .7s, -webkit-transform .7s, height .7s, width .7s;
     -moz-transition: line-height .7s ease-out, -moz-border-radius .7s, -moz-transform .7s, height .7s, width .7s;
     -o-transition: line-height .7s ease-out, border-radius .7s, -moz-transform .7s, height .7s, width .7s;
@@ -72,9 +72,9 @@ a{
     height:300px;
     line-height:70px;
     width:300px;
-    -webkit-border-radius:150px;
+    /*-webkit-border-radius:150px;
     -moz-border-radius:150px;
-    border-radius:150px;
+    border-radius:150px;*/
     -webkit-transform:rotate(-360deg);
     -moz-transform:rotate(-360deg);
     -o-transform:rotate(-360deg);
@@ -135,7 +135,7 @@ a{
     margin-top:17px;
 }
 #resume{
-    margin-top:10px; 
+    margin-top:12px; 
 } 
 #classes{
     margin-top:12px;
@@ -150,7 +150,7 @@ a{
     font-size:12px;
 }
 #footer{
-    margin-right:50px;
+    margin-right:33px;
     text-align:right;
 }
 #footer_line_2{
