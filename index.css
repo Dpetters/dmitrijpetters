@@ -6,6 +6,9 @@ html, body{
     font-family: 'Ubuntu Condensed', sans-serif;
     color:#666;
 }
+h1{
+    font-size:35px;
+}
 a{
     text-decoration:none;
 }
@@ -58,13 +61,14 @@ a{
     height:200px;
     width:200px;
     line-height:190px;
-    /*-webkit-border-radius: 100px;
+    /*
+    -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
     border-radius: 100px;*/
-    -webkit-transition: line-height .7s ease-out, -webkit-border-radius .7s, -webkit-transform .7s, height .7s, width .7s;
-    -moz-transition: line-height .7s ease-out, -moz-border-radius .7s, -moz-transform .7s, height .7s, width .7s;
-    -o-transition: line-height .7s ease-out, border-radius .7s, -moz-transform .7s, height .7s, width .7s;
-    transition: line-height .7s ease-out, border-radius .7s, transform .7s, height .7s, width .7s;
+    -webkit-transition: background .7s, line-height .7s ease-out, -webkit-border-radius .7s, -webkit-transform .7s, height .7s, width .7s;
+    -moz-transition: background .7s, line-height .7s ease-out, -moz-border-radius .7s, -moz-transform .7s, height .7s, width .7s;
+    -o-transition: background .7s, line-height .7s ease-out, border-radius .7s, -moz-transform .7s, height .7s, width .7s;
+    transition: background .7s, line-height .7s ease-out, border-radius .7s, transform .7s, height .7s, width .7s;
     text-align:center;
     text-shadow:0px 1px #BBB;
 }
@@ -72,7 +76,8 @@ a{
     height:300px;
     line-height:70px;
     width:300px;
-    /*-webkit-border-radius:150px;
+    /*
+    -webkit-border-radius:150px;
     -moz-border-radius:150px;
     border-radius:150px;*/
     -webkit-transform:rotate(-360deg);
@@ -101,7 +106,7 @@ a{
     font-size:16px;
 }
 #play_h2{
-    margin-top:7px;
+    margin-top:10px;
     font-size:21px;
 }
 #play_span{
