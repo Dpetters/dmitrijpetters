@@ -84,10 +84,10 @@ a{
     opacity:0;
     line-height:normal;
     font-size:.1px;
-    -webkit-transition: opacity .2s, font-size .7s ease;
-    -moz-transition: opacity .2s, font-size .7s ease;
-    -o-transition: opacity .2s, font-size .7s ease;
-    -ms-transition: opacity .2s, font-size .7s ease;
+    -webkit-transition: opacity .5s, font-size .7s ease;
+    -moz-transition: opacity .5s, font-size .7s ease;
+    -o-transition: opacity .5s, font-size .7s ease;
+    -ms-transition: opacity .5s, font-size .7s ease;
 }
 #d1 .content h2, #d1 .content p{
     color:#FA573C;
