@@ -1,173 +1,17 @@
 <html>
     <head>
+        <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
         <link href='http://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
-        <style type="text/css">
-            *{
-                margin:0;
-                padding:0;
-            }
-            html, body{
-                font-family: 'Ubuntu Condensed', sans-serif;
-                color:#666;
-            }
-            a{
-                text-decoration:none;
-            }
-            #container{
-                margin-top:200px;
-                margin-left:auto;
-                margin-right:auto;
-                width:1030px;
-            }
-            #main{
-                height:330px;
-            }
-            #welcome{
-                margin-top:68px;
-                margin-right:20px;
-                float:left;
-            }
-            #welcome #name{
-                font-size:40px;
-                font-family:'Satisfy', cursive;
-            }
-            #d1{
-                background:#FA573C;
-            }
-            #d2{
-                background:#29829C;
-            }
-            #d3{
-                background:#9EE637;
-            }
-            #d1 a:hover{
-                color:#F9CDC7;
-            }
-            #d2 a:hover{
-                color:#B5D9E2;
-            }
-            #d3 a:hover{
-                color:#DEEFC4;
-            }
-            .circle, .circle p, .circle a, .circle h2{
-                color:white;
-            }
-            .circle h1{
-                font-family:'Satisfy', cursive;
-                text-shadow:0px 1px #999;
-            }
-            .circle{
-                margin-left: 20px;
-                float:left;
-                height:200px;
-                width:200px;
-                line-height:190px;
-                -webkit-border-radius: 100px;
-                -webkit-transition: line-height .7s, -webkit-border-radius .7s, -webkit-transform .7s, height .7s, width .7s;
-                text-align:center;
-                text-shadow:0px 1px #BBB;
-            }
-            .circle:hover{
-                height:300px;
-                line-height:70px;
-                width:300px;
-                -webkit-border-radius:150px;
-                -webkit-transform:rotate(-360deg);
-            }
-            .circle .content{
-                opacity:0;
-                line-height:normal;
-                font-size:2.5px;
-                -webkit-transition: opacity .2s, font-size .7s ease;
-            }
-            #d1 .content h2, #d1 .content p{
-                color:#FA573C;
-                -webkit-transition: color .7s;
-            }
-            .circle:hover .content{
-                opacity:1;
-                font-size:16px;
-            }
-            #latest_project_title{
-                margin-top:19px;
-                font-size:20px;
-                font-weight:bold;
-            }
-            #latest_project{
-                font-size:18px;
-            }
-            #classes h2{
-                margin-bottom:3px;
-            }
-            #work_statement{
-                margin-bottom:10px;
-            }
-            #d1:hover .content h2, #d1:hover .content p{
-                color:white;
-            }
-            #past_employers, #resume, #classes{
-                margin-top:17px;
-            }
-            #past_employer p{
-                font-size:12px;
-            }
-            #footer{
-                margin-right:50px;
-                text-align:right;
-            }
-            #footer_line_2{
-                font-size:14.5px;
-            }
-            #footer_bottom_line{
-                font-size:13px;
-            }
-            #icons{
-                margin-top:10px;
-            }
-            .icon{
-                opacity:.5;
-                width:32px;
-                height:32px;
-                display:inline-block;
-                -webkit-transition: opacity .2s, background-image .2s;
-            }
-            .icon:hover{
-                opacity:1;
-            }
-            #facebook_icon{
-                background-image:url("facebook_32_bw.png");
-            }
-            #facebook_icon:hover{
-                background-image:url("facebook_32.png");
-            }
-            #google_plus_icon{
-                background-image:url("google_plus_32_bw.png");
-            }
-            #google_plus_icon:hover{
-                background-image:url("file:///C:/Users/dpetters/Documents/Development/web/google_plus_32.png");
-            }
-            #linkedin_icon{
-                background-image:url("file:///C:/Users/dpetters/Documents/Development/web/linkedin_32_bw.png");
-            }
-            #linkedin_icon:hover{
-                background-image:url("file:///C:/Users/dpetters/Documents/Development/web/linkedin_32.png");
-            }
-            #twitter_icon{
-                background-image:url("file:///C:/Users/dpetters/Documents/Development/web/twitter_32_bw.png");
-            }
-            #twitter_icon:hover{
-                background-image:url("file:///C:/Users/dpetters/Documents/Development/web/twitter_32.png");
-            }
-        </style>
+        <link href="index.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <div id="container">
-            <div id="main">
-        <div id="welcome">
+        <div id="c">
+            <div id="m">
+        <div id="w">
             <h1 id="name">Dmitrij Petters</h1>
         </div>    
-        <div id="d1" class="circle">
+        <div id="d1" class="c">
             <h1>Work</h1>
             <div class="content">
                 <p id="work_statement">I love building & designing products.</p>
@@ -180,11 +24,11 @@
                     <p><a href="http://thomsonreuters.com/">Thomson Reuters</a></p>
                 </div>
                 <div id="resume">
-                    <strong><a href="D. Petters Resume 2011.pdf">View My Resume</a></strong>
+                    <strong><a href="resume.pdf">View My Resume</a></strong>
                 </div>
             </div>
         </div>
-        <div id="d2" class="circle">
+        <div id="d2" class="c">
             <h1>Learn</h1>
             <div class="content">
                 <p>By night, I'm a junior at <a href="http://www.mit.edu">MIT</a>, studying</p>
@@ -200,21 +44,13 @@
             </div>
         </div>
         
-        <div id="d3" class="circle">
+        <div id="d3" class="c">
             <h1>Play</h1>
             <div class="content">
-                <p>I enjoy orming bonds.</p>
-                <h2>Aspirations</h2>
-                <p>Traders@MIT Competition</p>
-                <p>BMB
-                <p>I enjoy traveling and lively walks down Newberry street.</p>
-
-                <p>Originally from Latvia, I speak Russian and am in the process of learning Hindi & Mandarin.
-                
-                <p>I ran competitively in                
-                <p>I'm an avid runner, coder, and chess player.</p>
-                <p>and am a part of the BMB crew.</p>
-                <p>Also helping Traders@MIT prepare for their Annual Competition.</p>
+                <p>I enjoy meeting new people, am an avid runner & enjoy .</p>
+                <p>I aspire to travel the world.</p>
+                <p>Originally from Latvia, I speak fluent Russian and aspire to learn Madarin & Hindi.
+                <p>Am also helping Traders@MIT prepare for their Annual Competition.</p>
             </div>
         </div>
     </div>
@@ -232,6 +68,24 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript">
+        var _sf_async_config={uid:28685,domain:"dmitrijpetters.com"};
+        (function(){
+          function loadChartbeat() {
+            window._sf_endpt=(new Date()).getTime();
+            var e = document.createElement('script');
+            e.setAttribute('language', 'javascript');
+            e.setAttribute('type', 'text/javascript');
+            e.setAttribute('src',
+               (("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") +
+               "js/chartbeat.js");
+            document.body.appendChild(e);
+          }
+          var oldonload = window.onload;
+          window.onload = (typeof window.onload != 'function') ?
+             loadChartbeat : function() { oldonload(); loadChartbeat(); };
+        })();
+    </script>
     </body>
 </html>
 

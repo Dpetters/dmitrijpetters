@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+}
+html, body{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color:#666;
+}
+a{
+    text-decoration:none;
+}
+#c{
+    margin-top:200px;
+    margin-left:auto;
+    margin-right:auto;
+    width:1030px;
+}
+#m{
+    height:330px;
+}
+#w{
+    margin-top:68px;
+    margin-right:20px;
+    float:left;
+}
+#w #name{
+    font-size:40px;
+    font-family:'Satisfy', cursive;
+}
+#d1{
+    background:#FA573C;
+}
+#d2{
+    background:#29829C;
+}
+#d3{
+    background:#9EE637;
+}
+#d1 a:hover{
+    color:#F9CDC7;
+}
+#d2 a:hover{
+    color:#B5D9E2;
+}
+#d3 a:hover{
+    color:#DEEFC4;
+}
+.c, .c p, .c a, .c h2{
+    color:white;
+}
+.c h1{
+    font-family:'Satisfy', cursive;
+    text-shadow:0px 1px #999;
+}
+.c{
+    margin-left: 20px;
+    float:left;
+    height:200px;
+    width:200px;
+    line-height:190px;
+    -webkit-border-radius: 100px;
+    -webkit-transition: line-height .7s ease-out, -webkit-border-radius .7s, -webkit-transform .7s, height .7s, width .7s;
+    text-align:center;
+    text-shadow:0px 1px #BBB;
+}
+.c:hover{
+    height:300px;
+    line-height:70px;
+    width:300px;
+    -webkit-border-radius:150px;
+    -webkit-transform:rotate(-360deg);
+}
+.c .content{
+    opacity:0;
+    line-height:normal;
+    font-size:.1px;
+    -webkit-transition: opacity .2s, font-size .7s ease;
+}
+#d1 .content h2, #d1 .content p{
+    color:#FA573C;
+    -webkit-transition: color .7s;
+}
+.c:hover .content{
+    opacity:1;
+    font-size:16px;
+}
+#latest_project_title{
+    margin-top:19px;
+    font-size:20px;
+    font-weight:bold;
+}
+#latest_project{
+    font-size:18px;
+}
+#classes h2{
+    margin-bottom:3px;
+}
+#work_statement{
+    margin-bottom:10px;
+}
+#d1:hover .content h2, #d1:hover .content p{
+    color:white;
+}
+#past_employers, #resume, #classes{
+    margin-top:17px;
+}
+#past_employer p{
+    font-size:12px;
+}
+#footer{
+    margin-right:50px;
+    text-align:right;
+}
+#footer_line_2{
+    font-size:14.5px;
+}
+#footer_bottom_line{
+    font-size:13px;
+}
+#icons{
+    margin-top:10px;
+}
+.icon{
+    opacity:.5;
+    width:32px;
+    height:32px;
+    display:inline-block;
+    -webkit-transition: opacity .2s, background-image .2s;
+}
+.icon:hover{
+    opacity:1;
+}
+#facebook_icon{
+    background-image:url("facebook_32_bw.png");
+}
+#facebook_icon:hover{
+    background-image:url("facebook_32.png");
+}
+#google_plus_icon{
+    background-image:url("google_plus_32_bw.png");
+}
+#google_plus_icon:hover{
+    background-image:url("google_plus_32.png");
+}
+#linkedin_icon{
+    background-image:url("linkedin_32_bw.png");
+}
+#linkedin_icon:hover{
+    background-image:url("linkedin_32.png");
+}
+#twitter_icon{
+    background-image:url("twitter_32_bw.png");
+}
+#twitter_icon:hover{
+    background-image:url("twitter_32.png");
+}
