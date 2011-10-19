@@ -1,0 +1,237 @@
+<html>
+    <head>
+        <link href='http://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+        <style type="text/css">
+            *{
+                margin:0;
+                padding:0;
+            }
+            html, body{
+                font-family: 'Ubuntu Condensed', sans-serif;
+                color:#666;
+            }
+            a{
+                text-decoration:none;
+            }
+            #container{
+                margin-top:200px;
+                margin-left:auto;
+                margin-right:auto;
+                width:1030px;
+            }
+            #main{
+                height:330px;
+            }
+            #welcome{
+                margin-top:68px;
+                margin-right:20px;
+                float:left;
+            }
+            #welcome #name{
+                font-size:40px;
+                font-family:'Satisfy', cursive;
+            }
+            #d1{
+                background:#FA573C;
+            }
+            #d2{
+                background:#29829C;
+            }
+            #d3{
+                background:#9EE637;
+            }
+            #d1 a:hover{
+                color:#F9CDC7;
+            }
+            #d2 a:hover{
+                color:#B5D9E2;
+            }
+            #d3 a:hover{
+                color:#DEEFC4;
+            }
+            .circle, .circle p, .circle a, .circle h2{
+                color:white;
+            }
+            .circle h1{
+                font-family:'Satisfy', cursive;
+                text-shadow:0px 1px #999;
+            }
+            .circle{
+                margin-left: 20px;
+                float:left;
+                height:200px;
+                width:200px;
+                line-height:190px;
+                -webkit-border-radius: 100px;
+                -webkit-transition: line-height .7s, -webkit-border-radius .7s, -webkit-transform .7s, height .7s, width .7s;
+                text-align:center;
+                text-shadow:0px 1px #BBB;
+            }
+            .circle:hover{
+                height:300px;
+                line-height:70px;
+                width:300px;
+                -webkit-border-radius:150px;
+                -webkit-transform:rotate(-360deg);
+            }
+            .circle .content{
+                opacity:0;
+                line-height:normal;
+                font-size:2.5px;
+                -webkit-transition: opacity .2s, font-size .7s ease;
+            }
+            #d1 .content h2, #d1 .content p{
+                color:#FA573C;
+                -webkit-transition: color .7s;
+            }
+            .circle:hover .content{
+                opacity:1;
+                font-size:16px;
+            }
+            #latest_project_title{
+                margin-top:19px;
+                font-size:20px;
+                font-weight:bold;
+            }
+            #latest_project{
+                font-size:18px;
+            }
+            #classes h2{
+                margin-bottom:3px;
+            }
+            #work_statement{
+                margin-bottom:10px;
+            }
+            #d1:hover .content h2, #d1:hover .content p{
+                color:white;
+            }
+            #past_employers, #resume, #classes{
+                margin-top:17px;
+            }
+            #past_employer p{
+                font-size:12px;
+            }
+            #footer{
+                margin-right:50px;
+                text-align:right;
+            }
+            #footer_line_2{
+                font-size:14.5px;
+            }
+            #footer_bottom_line{
+                font-size:13px;
+            }
+            #icons{
+                margin-top:10px;
+            }
+            .icon{
+                opacity:.5;
+                width:32px;
+                height:32px;
+                display:inline-block;
+                -webkit-transition: opacity .2s, background-image .2s;
+            }
+            .icon:hover{
+                opacity:1;
+            }
+            #facebook_icon{
+                background-image:url("facebook_32_bw.png");
+            }
+            #facebook_icon:hover{
+                background-image:url("facebook_32.png");
+            }
+            #google_plus_icon{
+                background-image:url("google_plus_32_bw.png");
+            }
+            #google_plus_icon:hover{
+                background-image:url("file:///C:/Users/dpetters/Documents/Development/web/google_plus_32.png");
+            }
+            #linkedin_icon{
+                background-image:url("file:///C:/Users/dpetters/Documents/Development/web/linkedin_32_bw.png");
+            }
+            #linkedin_icon:hover{
+                background-image:url("file:///C:/Users/dpetters/Documents/Development/web/linkedin_32.png");
+            }
+            #twitter_icon{
+                background-image:url("file:///C:/Users/dpetters/Documents/Development/web/twitter_32_bw.png");
+            }
+            #twitter_icon:hover{
+                background-image:url("file:///C:/Users/dpetters/Documents/Development/web/twitter_32.png");
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="main">
+        <div id="welcome">
+            <h1 id="name">Dmitrij Petters</h1>
+        </div>    
+        <div id="d1" class="circle">
+            <h1>Work</h1>
+            <div class="content">
+                <p id="work_statement">I love building & designing products.</p>
+                <h2>My Latest Creation</h2>
+                <p id="latest_project"><a href="http://umeqo.com">Umeqo - Recruiting Made Simple</a></p>
+                <div id="past_employers">
+                    <p><strong>Fun places I've worked at</strong></p>
+                    <p><a href="http://www.sig.com/">Susquehanna International Group</a></p>
+                    <p><a href="http://www.athenacr.com/">Athena Capital Research</a></p>
+                    <p><a href="http://thomsonreuters.com/">Thomson Reuters</a></p>
+                </div>
+                <div id="resume">
+                    <strong><a href="D. Petters Resume 2011.pdf">View My Resume</a></strong>
+                </div>
+            </div>
+        </div>
+        <div id="d2" class="circle">
+            <h1>Learn</h1>
+            <div class="content">
+                <p>By night, I'm a junior at <a href="http://www.mit.edu">MIT</a>, studying</p>
+                <p>Computer Science & Mathematics.</p>
+                <div id="classes">
+                    <h2>Currently Taking</h2>
+                    <p>14.12 - Economic Applications of Game Theory</p>
+                    <p>6.046 - Design and Analysis of Algorithms</p>
+                    <p>18.443 - Statistics for Applications</p>
+                    <p>6.034 - Artificial Intelligence</p>
+                    <p>18.06 - Linear Algebra</p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="d3" class="circle">
+            <h1>Play</h1>
+            <div class="content">
+                <p>I enjoy orming bonds.</p>
+                <h2>Aspirations</h2>
+                <p>Traders@MIT Competition</p>
+                <p>BMB
+                <p>I enjoy traveling and lively walks down Newberry street.</p>
+
+                <p>Originally from Latvia, I speak Russian and am in the process of learning Hindi & Mandarin.
+                
+                <p>I ran competitively in                
+                <p>I'm an avid runner, coder, and chess player.</p>
+                <p>and am a part of the BMB crew.</p>
+                <p>Also helping Traders@MIT prepare for their Annual Competition.</p>
+            </div>
+        </div>
+    </div>
+        <div id="footer">
+            <p id="footer_line1">Privet! Welcome to my page. I hope you like it.</p>
+            <p id="footer_line_2">Feel free to contact me at dpetters at mit.edu
+            <p id="footer_line3">I'm a friendly guy =P</p>
+            <br>
+            <p id="footer_bottom_line">P.S. This page uses no javascript. Just HTML5 & CSS3.<p>
+            <div id="icons">
+                <a href="https://facebook.com/dpetters"><div class="icon" id="facebook_icon"></div></a>
+                <a href="https://plus.google.com/100081002713159544475"><div class="icon" id="google_plus_icon"></div></a>
+                <a href="http://www.linkedin.com/in/dpetters"><div class="icon" id="linkedin_icon"></div></a>
+                <a href="https://twitter.com/#!/dpetters91"><div class="icon" id="twitter_icon"></div></a>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
+
