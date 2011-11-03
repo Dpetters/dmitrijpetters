@@ -1,0 +1,16 @@
+.git
+*.class
+*.exe
+*.pyc
+*.pyo
+*.db
+*.db-journal
+.tmp*
+.project
+.pydevproject
+.settings
+*.DS_Store
+*.psd
+*.swp
+*.log
+*.log.*
