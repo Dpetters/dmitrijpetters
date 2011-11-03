@@ -5,7 +5,7 @@ STAGING_PASSWORD = "Ang3lInvest1ng"
 __all__= ["restart", "update"]
 
 env.password = STAGING_PASSWORD
-env.directory = 'var/www/dmitrijpetters.com'
+env.directory = '/var/www/dmitrijpetters.com'
 env.hosts = ['root@staging.umeqo.com']
 
 def restart():
