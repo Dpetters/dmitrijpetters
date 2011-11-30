@@ -1,6 +1,6 @@
 from fabric.api import env, sudo, cd, run
 
-STAGING_PASSWORD = "Ang3lInvest1ng"
+STAGING_PASSWORD = "Bulle1tN3at"
 
 __all__= ["restart", "update"]
 
