@@ -59,12 +59,12 @@ a{
 #ctrl{
     text-align:right;
     position:relative;
-    bottom:110px;
+    bottom:70px;
     height:0px;
-    margin-right:50px;
+    margin-right:25px;
 }
 #ctrl a{
-    color:white;
+    margin-right:10px;
 }
 .white{
     position:relative;
@@ -87,29 +87,6 @@ a{
     border-right: 20px solid transparent;
     height:0px;
     line-height:35px;
-}
-#ctrl_1l{
-    border-top: 20px solid #777;    
-}
-#ctrl_1r{
-    border-bottom: 20px solid #777;
-}
-#ctrl_1r{
-    right:3px;
-}
-#ctrl_2l{
-    border-top: 20px solid #999;    
-}
-#ctrl_2r{
-    border-bottom: 20px solid #999;
-}
-#ctrl_2l{
-
-    right:15px;
-}
-#ctrl_2r{
-    border-bottom: 20px solid #999;
-    right:18px;
 }
 .c{
     margin-left: 20px;
