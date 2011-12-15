@@ -17,7 +17,7 @@ a{
     margin-top:200px;
     margin-left:auto;
     margin-right:auto;
-    width:1030px;
+    width:1075px;
 }
 #m{
     height:330px;
@@ -207,6 +207,7 @@ a{
 }
 #footer_line_2{
     font-size:14.5px;
+    margin-bottom:10px;
 }
 #footer_bottom_line{
     font-size:13px;
