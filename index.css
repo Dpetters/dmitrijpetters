@@ -7,11 +7,23 @@ html, body{
     color:#666;
 }
 h1{
-    font-size:35px;
+    font-size:30px;
+}
+h2{
+    font-size:20px;
+}
+.small {
+    font-size:14px;
+}
+.big{
+    font-size:18px;
 }
 a{
     color:#666;
     text-decoration:none;
+}
+a, span, p{
+    font-size:16px;
 }
 #c{
     margin-top:200px;
@@ -23,12 +35,12 @@ a{
     height:330px;
 }
 #w{
-    margin-top:68px;
+    margin-top:78px;
     margin-right:20px;
     float:left;
 }
 #w #name{
-    font-size:40px;
+    font-size:30px;
     font-family:'Satisfy', cursive;
 }
 #d1{
@@ -41,7 +53,7 @@ a{
     background:#98DB34;
 }
 #d1 a:hover{
-    color:#F9CDC7;
+    color:#F7DDD9;
 }
 #d2 a:hover{
     color:#B5D9E2;
@@ -51,10 +63,19 @@ a{
 }
 .c, .c p, .c a, .c h2{
     color:white;
+    text-shadow:1px 0px #AAA;
 }
 .c h1{
     font-family:'Satisfy', cursive;
-    text-shadow:0px 1px #999;
+    margin-top:75px;
+    -webkit-transition: margin-top .1s;
+    -moz-transition: margin-top .1s;
+    -o-transition: margin-top .1s;
+    -ms-transition: margin-top .1s;
+}
+.c:hover h1{
+    margin-top:12px;
+    margin-bottom:8px;
 }
 #ctrl{
     text-align:right;
@@ -93,13 +114,11 @@ a{
     float:left;
     height:200px;
     width:200px;
-    line-height:190px;
-    -webkit-transition: background .7s, line-height .7s ease-out, -webkit-border-radius .7s, -webkit-transform .7s, height .7s, width .7s;
-    -moz-transition: background .7s, line-height .7s ease-out, -moz-border-radius .7s, -moz-transform .7s, height .7s, width .7s;
-    -o-transition: background .7s, line-height .7s ease-out, border-radius .7s, -moz-transform .7s, height .7s, width .7s;
-    transition: background .7s, line-height .7s ease-out, border-radius .7s, transform .7s, height .7s, width .7s;
+    -webkit-transition: background .7s, -webkit-border-radius .7s, -webkit-transform .7s, height .7s, width .7s;
+    -moz-transition: background .7s, -moz-border-radius .7s, -moz-transform .7s, height .7s, width .7s;
+    -o-transition: background .7s, border-radius .7s, -moz-transform .7s, height .7s, width .7s;
+    transition: background .7s, border-radius .7s, transform .7s, height .7s, width .7s;
     text-align:center;
-    text-shadow:0px 1px #BBB;
 }
 #c:target #ctrl_2r{
     border-bottom: 20px solid #777;
@@ -125,7 +144,6 @@ a{
 }
 .c:hover{
     height:300px;
-    line-height:70px;
     width:300px;
     -webkit-transform:rotate(-360deg);
     -moz-transform:rotate(-360deg);
@@ -133,6 +151,7 @@ a{
     -ms-transform:rotate(-360deg);
 }
 .c .content{
+    height:0px;
     opacity:0;
     line-height:normal;
     font-size:.1px;
@@ -141,6 +160,23 @@ a{
     -o-transition: opacity .5s, font-size .7s ease;
     -ms-transition: opacity .5s, font-size .7s ease;
 }
+.c .content .main{
+    height:0px;
+}
+.c .content p{
+    height:0px;
+}
+.c:hover .content{
+    opacity:1;
+    font-size:14px;
+}
+.c:hover .content .main{
+    height:40px;
+}
+.c:hover .content p{
+    height:20px;
+}
+
 #d1 .content h2, #d1 .content p{
     color:#FA573C;
     -webkit-transition: color .7s;
@@ -148,59 +184,58 @@ a{
     -o-transition: color .7s;
     -ms-transition: color .7s;
 }
-.c:hover .content{
-    opacity:1;
-    font-size:16px;
-}
-#play_h2{
-    margin-top:10px;
-    font-size:21px;
-}
-#play_span{
-    font-size:14px;
-}
-#play_line3{
-    margin-top:4px;
-}
-#play_line4{
-    margin-top:4px;
-}
-#latest_project_title{
-    margin-top:19px;
-    font-size:20px;
-    font-weight:bold;
-}
-#latest_project{
-    font-size:18px;
-}
-#classes h2{
-    margin-top:20px;
-    margin-bottom:3px;
+
+
+
+#d1:hover .content h2, #d1:hover .content p{
+    color:white;
 }
 #work_statement{
     margin-bottom:10px;
 }
-#d1:hover .content h2, #d1:hover .content p{
-    color:white;
-}
 #past_employers{
-    margin-top:17px;
+    margin-top:13px;
 }
 #resume{
-    margin-top:12px; 
-} 
-#classes{
-    margin-top:12px;
+    margin-top:6px; 
 }
+#resume a{
+    font-size:18px;
+    font-weight:bold;
+}
+
 #classes h2{
-    margin-bottom:2px;
+    margin-top:9px;
 }
-#classes p{
-    line-height:20px;
+#classes ul{
+    list-style:none;
 }
-#past_employer p{
-    font-size:12px;
+#classes li{
+    line-height:18px;
+    font-size:14px;
 }
+.c .content #classes{
+    height:0px;
+}
+.c .content #classes h2{
+    height:0px;
+}
+.c:hover .content #classes{
+    height:40px;
+}
+.c:hover .content #classes h2{
+    height:30px;
+}
+
+#play_h2{
+    margin-top:12px;
+    font-size:21px;
+}
+#play_bottom{
+    margin-top:18px;
+}
+
+
 #footer{
     margin-right:33px;
     text-align:right;
