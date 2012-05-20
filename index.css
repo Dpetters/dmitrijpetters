@@ -70,7 +70,6 @@ a:hover{
 }
 .square .content{
     opacity:0;
-    line-height:normal;
     font-size:.1px;
     -webkit-transition: opacity .5s, font-size .7s ease;
     -moz-transition: opacity .5s, font-size .7s ease;
@@ -102,25 +101,25 @@ a:hover{
 .square a, .square span, .square p{
     font-size:16px;
 }
-.square .content p, .square .content h2, .square .content li{
+.square p, .square h2, .square li{
     -webkit-transition: height .1s;
     -moz-transition: height .1s;
     -o-transition: height .1s;
     -ms-transition: height .1s;
 }
-.square .content p{
+.square p{
     height:2px;
 } 
-.square .content h2{
+.square h2{
      height:15px;
 }
-.square .content li{
+.square li{
     height:5px;
 }
-.square:hover .content p, .square:hover .content li{
+.square:hover p, .square:hover li{
     height:20px;
 }
-.square:hover .content h2{
+.square:hover h2{
     height:24px;
 }
 
