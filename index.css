@@ -102,16 +102,26 @@ a:hover{
 .square a, .square span, .square p{
     font-size:16px;
 }
-
-
+.square .content p, .square .content h2, .square .content li{
+    -webkit-transition: height .1s;
+    -moz-transition: height .1s;
+    -o-transition: height .1s;
+    -ms-transition: height .1s;
+}
 .square .content p{
     height:2px;
 } 
+.square .content h2{
+     height:15px;
+}
 .square .content li{
     height:5px;
 }
 .square:hover .content p, .square:hover .content li{
     height:20px;
+}
+.square:hover .content h2{
+    height:24px;
 }
 
 #work_tagline{
