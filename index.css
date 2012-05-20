@@ -5,6 +5,7 @@
 html, body{
     font-family: 'Ubuntu Condensed', sans-serif;
     color:#666;
+    font-size:14px;
 }
 h1{
     font-size:30px;
@@ -12,104 +13,43 @@ h1{
 h2{
     font-size:20px;
 }
-.small {
-    font-size:14px;
-}
-.big{
-    font-size:18px;
-}
 a{
     color:#666;
     text-decoration:none;
 }
-a, span, p{
-    font-size:16px;
+a:hover{
+    color: #888;
 }
-#c{
+
+
+.big{
+    font-size:18px !important;
+}
+.bold{
+    font-weight:bold !important;
+}
+#width_container{
     margin-top:200px;
     margin-left:auto;
     margin-right:auto;
-    width:1075px;
+    width:1030px;
 }
-#m{
+
+#main{
     height:330px;
 }
-#w{
+
+#name{
     margin-top:78px;
-    margin-right:20px;
+    margin-right:52px;
     float:left;
 }
-#w #name{
+#name h1{
     font-size:30px;
-    font-family:'Satisfy', cursive;
 }
-#d1{
-    background:#FA573C;
-}
-#d2{
-    background:#29829C;
-}
-#d3{
-    background:#98DB34;
-}
-#d1 a:hover{
-    color:#F7DDD9;
-}
-#d2 a:hover{
-    color:#B5D9E2;
-}
-#d3 a:hover{
-    color:#E4F4CB;
-}
-.c, .c p, .c a, .c h2{
-    color:white;
-    text-shadow:0px 1px 0px #CCC;
-}
-.c h1{
-    font-family:'Satisfy', cursive;
-    margin-top:75px;
-    -webkit-transition: margin-top .1s;
-    -moz-transition: margin-top .1s;
-    -o-transition: margin-top .1s;
-    -ms-transition: margin-top .1s;
-}
-.c:hover h1{
-    margin-top:12px;
-    margin-bottom:8px;
-}
-#ctrl{
-    text-align:right;
-    position:relative;
-    bottom:70px;
-    height:0px;
-    margin-right:20px;
-}
-#ctrl a{
-    margin-right:5px;
-}
-.white{
-    position:relative;
-    top:25px;
-    padding: 10px 0px;
-    color: white;  
-    font-weight: bold;  
-    display: inline-block;
-    border-left: 20px solid transparent;
-    height:0px;
-    line-height:35px;
-}
-.gray{
-    position:relative;
-    top:5px;
-    padding: 10px 3px;
-    color: white;  
-    font-weight: bold;  
-    display: inline-block;
-    border-right: 20px solid transparent;
-    height:0px;
-    line-height:35px;
-}
-.c{
+
+.square{
+    background:#888;
     margin-left: 20px;
     float:left;
     height:200px;
@@ -120,29 +60,7 @@ a, span, p{
     transition: background .7s, border-radius .7s, transform .7s, height .7s, width .7s;
     text-align:center;
 }
-#c:target #ctrl_2r{
-    border-bottom: 20px solid #777;
-}
-#c:target #ctrl_2l{
-    border-top: 20px solid #777;
-}
-#c:target #ctrl_1r{
-    border-bottom: 20px solid #999;
-}
-#c:target #ctrl_1l{
-    border-top: 20px solid #999;
-}
-#c:target .c{
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    border-radius: 100px;
-}
-#c:target .c{
-    -webkit-border-radius:150px;
-    -moz-border-radius:150px;
-    border-radius:150px;
-}
-.c:hover{
+.square:hover{
     height:300px;
     width:300px;
     -webkit-transform:rotate(-360deg);
@@ -150,8 +68,7 @@ a, span, p{
     -o-transform:rotate(-360deg);
     -ms-transform:rotate(-360deg);
 }
-.c .content{
-    height:0px;
+.square .content{
     opacity:0;
     line-height:normal;
     font-size:.1px;
@@ -160,93 +77,79 @@ a, span, p{
     -o-transition: opacity .5s, font-size .7s ease;
     -ms-transition: opacity .5s, font-size .7s ease;
 }
-.c .content .main{
-    height:0px;
-}
-.c .content p{
-    height:0px;
-}
-.c:hover .content{
+.square:hover .content{
     opacity:1;
     font-size:14px;
 }
-.c:hover .content .main{
-    height:40px;
+.square h1{
+    margin-top:75px;
+    -webkit-transition: margin-top .1s;
+    -moz-transition: margin-top .1s;
+    -o-transition: margin-top .1s;
+    -ms-transition: margin-top .1s;
 }
-.c:hover .content p{
+.square:hover h1{
+    margin-top:12px;
+    margin-bottom:8px;
+}
+.square a, .square span, .square p, .square h1, .square h2, .square h3, .square li{
+    color:#fff;
+    text-shadow: 1px 1px 0px #666;
+}
+.square a, .square span, .square p{
+    font-size:16px;
+}
+
+
+.square .content p, .square .content li{
+    height:0px;
+}
+.square:hover .content p, .square:hover .content li{
     height:20px;
 }
 
-#d1 .content h2, #d1 .content p{
-    color:#FA573C;
-    -webkit-transition: color .7s;
-    -moz-transition: color .7s;
-    -o-transition: color .7s;
-    -ms-transition: color .7s;
-}
-
-
-
-#d1:hover .content h2, #d1:hover .content p{
-    color:white;
-}
-#work_statement{
-    margin-bottom:10px;
+#work_tagline{
+    margin-bottom:8px;
 }
 #past_employers{
-    margin-top:13px;
+    margin-top:11px;
 }
 #resume{
     margin-top:6px; 
 }
-#resume a{
-    font-size:18px;
-    font-weight:bold;
-}
 
 #classes h2{
-    margin-top:9px;
+    margin-top:28px;
 }
 #classes ul{
+    margin-top:5px;
     list-style:none;
 }
 #classes li{
     line-height:18px;
     font-size:14px;
 }
-.c .content #classes{
-    height:0px;
-}
-.c .content #classes h2{
-    height:0px;
-}
-.c:hover .content #classes{
-    height:40px;
-}
-.c:hover .content #classes h2{
-    height:30px;
-}
 
 #play_h2{
-    margin-top:12px;
+    margin-top:14px;
     font-size:21px;
 }
 #play_bottom{
-    margin-top:18px;
+    margin-top:20px;
 }
 
 
 #footer{
-    margin-right:33px;
     text-align:right;
 }
-#footer_line_2{
-    font-size:14.5px;
-    margin-bottom:10px;
+#footer p{
+    margin-bottom:5px;
 }
-#footer_bottom_line{
+#footer p, #footer a{
     font-size:13px;
 }
+
+/* Social Icons */
 #icons{
     margin-top:10px;
 }
