@@ -104,8 +104,11 @@ a:hover{
 }
 
 
-.square .content p, .square .content li{
-    height:0px;
+.square .content p{
+    height:2px;
+} 
+.square .content li{
+    height:5px;
 }
 .square:hover .content p, .square:hover .content li{
     height:20px;
@@ -115,10 +118,10 @@ a:hover{
     margin-bottom:8px;
 }
 #past_employers{
-    margin-top:11px;
+    margin-top:12px;
 }
 #resume{
-    margin-top:6px; 
+    margin-top:8px; 
 }
 
 #classes h2{
